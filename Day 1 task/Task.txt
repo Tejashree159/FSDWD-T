@@ -1,0 +1,17 @@
+The Hypertext Transfer Protocol (HTTP) has two main versions, HTTP/1.1 and HTTP/2. They were designed to enhance the manner in which web communication works. It was in 1999 when HTTP/1.1 was launched as an improvement on efficiency by allowing persistent connections and supporting chunked transfers that facilitate faster data delivery. However, this came with certain issues such as head-of-line blocking resulting from the sequential processing model of HTTP/1.1 whereby a delay to one request would stall all others adversely affecting page load times.
+
+HTTP/2 was introduced in 2015 to address these shortcomings. The most remarkable development in HTTP/2 is multiplexing that allows concurrent processing of multiple requests and responses over a single connection hence reducing the effects of head-of-line blocking significantly. Moreover, there is binary framing layer used by HTTP/2 for its data transfer far more efficient than the text-based format used by HTTP/1.1.This also includes header compression for quicker communication, where headers are made smaller, server push where resources are sent proactively by the server to clients thereby reducing latency.
+
+In general terms, if we talk about overall performance benefits then clearly speaking http2 provides much better results than http 1.x., making it more suitable for resource-intensive modern applications because they give faster and more efficient data transfer offering improved user experience at large.
+
+
+
+
+
+Objects in JavaScript are fundamental data structures that enable you to hold collections of key-value pairs. An object is defined using curly braces {} with properties, where each property is a key-value pair. Usually, the key will be a string or symbol and the value can take any other legitimately valid JavaScript data type such as, objects, functions or arrays.
+
+Internally, JavaScript objects are actually hash tables. This means that when you access a property of an object using dot notation (object.property) or bracket notation (object['property']), JavaScript uses the key to look up the value in this hash table. In this way property values can be efficiently retrieved.
+
+JavaScript objects may also have methods which are basically functions associated with the object. These methods can manipulate the object’s properties thus encapsulating functionality and data.
+
+The JavaScript engine optimizes storage and access of objects through hidden classes and inline caching under the hood. This ensures that properties are accessed faster while making objects as efficient as possible. However, because JavaScript is dynamic in nature adding or deleting properties from an object sometimes has performance costs since it forces engine to reoptimize internal representation of that particular object.
