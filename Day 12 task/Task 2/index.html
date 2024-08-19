@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event 1</h1>
+        <p>Number of available seats: <span id="available-seats">23</span></p>
+
+        <div class="content">
+            <div class="image-placeholder">
+                <p>Image</p>
+            </div>
+            
+            <form>
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone No.:</label>
+                    <input type="tel" id="phone" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="seats">Number of seats:</label>
+                    <select id="seats">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="attendee-name">Name of Attendee 2:</label>
+                    <input type="text" id="attendee-name">
+                </div>
+
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
