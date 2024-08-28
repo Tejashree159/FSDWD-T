@@ -15,25 +15,42 @@ let myResume = {
   "education": [
     {
       "institution": "Easwari Engineering College",
-      "department": "MComputer Science",
+      "department": "Computer Science",
       "studyType": "fulltime",
       "batch start year": 2020,
       "batch end year": 2024,
       "gpa": 8.6
+    },
+    {
+      "institution": "PSBB School",
+      "department": "Science",
+      "studyType": "fulltime",
+      "batch start year": 2018,
+      "batch end year": 2019,
+      "gpa": 8.27
     }
   ],
   "skills": [
     {
-      "name": "python,c",
-      "level": "beginner",
-      "project": [
-        "ATM and POS Security"
-      ]
+      "name": "Python",
+      "level": "beginner"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate"
+    },
+    {
+      "name": "React",
+      "level": "intermediate"
     }
+    
   ],
   "languages": [
     {
-      "language": "Tamil,English"
+      "language": "Tamil"
+    },
+    {
+      "language": "English"
     }
   ],
   "interests": [
@@ -60,7 +77,6 @@ console.log("\nUsing `forEach` method:");
 myResume.skills.forEach(skill => {
   console.log(`Skill Name: ${skill.name}`);
   console.log(`Skill Level: ${skill.level}`);
-  skill.project.forEach(proj => console.log(`Project: ${proj}`));
 });
 
 // Using `for...in` loop for `basics`
