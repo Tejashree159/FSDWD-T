@@ -1,5 +1,9 @@
-const button = document.querySelector("button");
+function sum(x,y){
+    return x+y;
+}
 
-button.addEventListener("click",()=>{
-    document.body.style.backgroundColor="red";
-});
+function getResults(x,y,operation){
+    return operation(x,y);
+}
+
+console.log(getResults(3,4,sum));

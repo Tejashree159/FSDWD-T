@@ -1,0 +1,75 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 20px;
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center; 
+}
+
+.pricing-card h5 {
+  margin: 10px 0;
+  font-size: 0.8em;
+  color: #787676;
+}
+
+.pricing-card p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.pricing-card ul li .fa-check {
+  color: green;
+  margin-right: 8px;
+}
+
+.pricing-card ul li .fa-times {
+  color: red;
+  margin-right: 8px;
+}
+
+.pricing-card button {
+  background-color: #1b72ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pricing-card button:hover {
+  background-color: #0056b3;
+}
+
